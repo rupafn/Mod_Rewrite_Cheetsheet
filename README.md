@@ -112,3 +112,5 @@ PT (pass through - use when processing URLs with additional handlers, e.g., mod_
     </ul>
 </li>
 </ul>
+
+PS. taken from https://www.addedbytes.com/blog/url-rewriting-for-beginners
