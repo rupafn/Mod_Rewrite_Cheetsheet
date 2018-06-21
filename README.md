@@ -45,3 +45,70 @@ PT (pass through - use when processing URLs with additional handlers, e.g., mod_
 
 
 </ul>
+
+
+<h2>VARIABLE_NAME</h2>
+
+<ul>
+<li>
+  HTTP Headers
+  <ul>
+    <li>HTTP_USER_AGENT</li>
+    <li>HTTP_REFERER</li>
+    <li>HTTP_COOKIE</li>
+    <li>HTTP_FORWARDED</li>
+    <li>HTTP_HOST</li>
+    <li>HTTP_PROXY_CONNECTION</li>
+    <li>HTTP_ACCEPT</li>
+  </ul>
+</li>
+<li>
+  Connection Variables
+  <ul>
+        <li>REMOTE_ADDR</li>
+        <li>REMOTE_HOST</li>
+        <li>REMOTE_USER</li>
+        <li>REMOTE_IDENT</li>
+        <li>REQUEST_METHOD</li>
+        <li>SCRIPT_FILENAME</li>
+        <li>PATH_INFO</li>
+        <li>QUERY_STRING</li>
+        <li>AUTH_TYPE</li>
+  </ul>
+</li>
+<li>
+    Server Variables
+    <ul>
+       <li>DOCUMENT_ROOT</li>
+       <li>SERVER_ADMIN</li>
+       <li>SERVER_NAME</li>
+       <li>SERVER_ADDR</li>
+       <li>SERVER_PORT</li>
+       <li>SERVER_PROTOCOL</li>
+       <li>SERVER_SOFTWARE</li>
+    </ul>
+</li>
+<li>
+    Dates and Times
+    <ul>
+        <li>TIME_YEAR</li>
+        <li>TIME_MON</li>
+        <li>TIME_DAY</li>
+        <li>TIME_HOUR</li>
+        <li>TIME_MIN</li>
+        <li>TIME_SEC</li>
+        <li>TIME_WDAY</li>
+        <li>TIME</li>
+    </ul>
+</li>
+<li>
+    Special Items
+    <ul>
+        <li>API_VERSION</li>
+        <li>THE_REQUEST</li>
+        <li>REQUEST_URI</li>
+        <li>REQUEST_FILENAME</li>
+        <li>IS_SUBREQ</li>
+    </ul>
+</li>
+</ul>
